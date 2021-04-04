@@ -9,7 +9,7 @@ _file_notifier*
 env
 .metadata
 .settings
-
+sample/logs
 
 #######################################################################
 # 
