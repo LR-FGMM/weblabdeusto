@@ -23,7 +23,7 @@ hosts:
               port: 10001
             type: laboratory
           simulador:
-            class: experiments.http_experiment.http_experiment
+            class: experiments.http_experiment.HttpExperiment
             config:
               http_experiment_url: http://weblab-cris.herokuapp.com/
               http_experiment_username: weblabdeusto
