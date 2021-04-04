@@ -1,5 +1,5 @@
 # It must be here to retrieve this information from the dummy
-core_universal_identifier       = '189f9f5d-27a1-4f12-879e-8df2f34fcc92'
+core_universal_identifier       = '4897a437-905d-4a66-b49a-8e37d04bea61'
 core_universal_identifier_human = u'Generic system; not identified'
 
 db_engine          = u'sqlite'
@@ -76,6 +76,7 @@ core_coordinator_db_password  = u'weblab'
 core_coordinator_laboratory_servers = {
     'laboratory1:laboratory1@core_host' : {
             'exp1|dummy|Dummy experiments'        : 'dummy1@dummy_queue',
+            'exp1|simulador|Simulador experiments' : 'simulador1@simulador_queue'
         },
 
 }
@@ -94,5 +95,6 @@ weblabdeusto_federation_demo = ('EXTERNAL_WEBLAB_DEUSTO', {
 core_scheduling_systems = {
         'dummy_queue'            : ('PRIORITY_QUEUE', {}),
         'robot_external'   : weblabdeusto_federation_demo,
+        'simulador_queue' : ('PRIORITY_QUEUE', {})
     }
 
