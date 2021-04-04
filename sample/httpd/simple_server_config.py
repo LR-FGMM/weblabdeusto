@@ -1,0 +1,16 @@
+PATHS = [ 
+    (u'$', u'redirect:/weblab/'),
+    (u'/$', u'redirect:/weblab/'),
+    (u'/weblab/client$', u'redirect:/weblab/client/index.html'),
+    (u'/weblab/client', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/weblab/core/static/oldclient'),
+    (u'/weblab/admin/static', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/flask_admin/static'),
+    (u'/weblab/instructor/static', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/weblab/admin/web/static'),
+    (u'/weblab/profile/static', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/weblab/admin/web/static'),
+    (u'/weblab/web/static', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/weblab/core/static'),
+    (u'/weblab/static', u'file:/Users/fernandalopezgallegos/weblab-1/lib/python2.7/site-packages/weblab/core/static'),
+    (u'/weblab/gwt/weblabclientlab', u'file:war/weblabclientlab'),
+    (u'/weblab/web/pub', u'file:/Users/fernandalopezgallegos/Documents/Proyectos/WebLab-Deusto/weblabdeusto/sample/pub'),
+    (u'/weblab/', u'proxy-sessions:weblabsessionid:route1=http://localhost:10000/weblab/,'),
+    (u'/weblab', u'redirect:/weblab/'),
+    (u'', u'redirect:/weblab/'),
+]
